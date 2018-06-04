@@ -1,0 +1,450 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #f6f6f6;
+    padding: 22px 0;
+}
+
+.arrow-to-top {
+    position: fixed;
+    left: 15px;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container a {
+    color: #000000;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+
+.header-container a:hover {
+    background: #ffea00;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.top-slide {
+    padding-top: 120px;
+    padding-bottom: 280px;
+    background: url(/img/slider_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.top-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.top-slide h2 {
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+}
+
+.top-slide :nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.top-slide p {
+    font-size: 24px;
+    display: inline;
+    background: #414146;
+    color: #fff;
+    padding: 0 4px;
+}
+
+.specialize {
+    margin-top: 80px;
+}
+
+.specialize-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialize-container h3 {
+    font-size: 35px;
+}
+
+.specialize-container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.first-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.next-cards-top {
+    height: 208px;
+    width: 250px;
+    padding-top: 40px;
+    background: #ffea00;
+}
+
+.next-cards-top p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.next-cards-bottom p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+.bottom-card {
+    background-color: #414146;
+    position: relative;
+    top: -30px;
+    color: #fff;
+}
+
+.next-cards-bottom {
+    top: -63px;
+}
+
+.next-cards-top img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.specialize-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h4 {
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10a;
+    margin-bottom: 30px;
+}
+
+.portfolio p {
+    color: #424146;
+    font-size: 16px;
+}
+
+.toggles button {
+    border: none;
+    color: #424146;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 16px;
+    margin: 20px 5px;
+}
+
+.toggles button:after {
+    content: ' / ';
+}
+
+.toggles button:last-child:after {
+    content: '';
+}
+
+.posts {
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.brand-slider {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.brand-slider h4 {
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10a;
+    margin-bottom: 30px;
+}
+
+.brand-slider p {
+    color: #424146;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #414146;
+    padding: 0 0;
+    color: #fff;
+}
+
+footer h4 {
+    font-size: 18px;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    grid-column-gap: 3%;
+}
+
+.about-us, .tweets, .contacts {
+    margin-top: 20px;
+}
+
+.footer-container .about-us a {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border-bottom: 2px solid #ffea00;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.images {
+    margin-top: 10px;
+}
+
+.tweets p {
+    margin-top: 20px;
+}
+
+div.tweets-icons h4 {
+    display: inline-block;
+
+}
+
+div.tweets-icons p {
+    display: inline-block;
+}
+
+div.test h4 {
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle
+}
+
+div.icons p {
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle
+}
+
+div.contacts p img {
+    padding-right: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+div.contacts p {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+div.follow {
+    margin-top: 20px;
+}
+
+div.follow p {
+    margin-bottom: 20px;
+}
+
+div.follow input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+div.follow input:focus {
+    border-bottom: 2px solid #ffea00;
+}
+
+div.follow img {
+    vertical-align: bottom;
+}
+
+.yellow-span {
+    color: #ffea00;
+}
+
+div.follow button {
+    outline: none;
+    border: none transparent;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-nav ul.main-menu li {
+    margin-right: 80px;
+}
+
+.bottom-nav ul.main-menu li:last-child {
+    margin-right: 0px;
+}
+
+.bottom-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-nav a:hover {
+    color: #ffea00;
+}
+
+@media screen and (max-width: 420px) {
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .main-menu li {
+        width: 100px;
+        display: flex;
+        font-size: 12px;
+    }
+
+    .main-menu a {
+        margin-left: auto;
+        display: block;
+        padding: 8px;
+    }
+
+    .toggle-button {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .toggle-button:after {
+        content: attr(data-open);
+        display: block;
+    }
+
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu {
+        display: block;
+    }
+
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
+        content: attr(data-close);
+    }
+
+    .header-container a {
+        margin-right: -65px;
+    }
+
+    .main-menu {
+        position: relative;
+        top: 30px;
+        right: 115px;
+    }
+
+    .top-slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .top-slide h2 {
+        font-size: 32px;
+    }
+
+    .top-slide p {
+        font-size: 16px;
+    }
+
+    .specialize {
+        margin-top: 0px;
+    }
+
+    .specialize-container p {
+        font-size: 16px;
+    }
+
+    .specialize-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom-card {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .next-cards-top {
+        margin: 0 auto;
+    }
+
+    .posts {
+        width: 90%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
+    }
+
+}
